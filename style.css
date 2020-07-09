@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color : #20B2AA;
+}
+
+canvas {
+    display: block;
+}
+
+.header{
+    display : flex;
+    justify-content : center;
+
+    border-right : 10px ridge #FF0000;
+    border-left : 10px ridge #FF0000;
+
+    border-top : 10px ridge #000028;
+    border-bottom : 10px ridge #000028;
+}

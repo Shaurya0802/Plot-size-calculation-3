@@ -18,3 +18,21 @@ canvas {
     border-top : 10px ridge #000028;
     border-bottom : 10px ridge #000028;
 }
+
+.menu{
+    font-family : 'Courier New', Courier, monospace;
+    font-style : bold;
+    font-size : x-large;
+    background-color: #DAA520;
+    text-align: center;
+    display : flex;
+    justify-content : space-evenly;
+}
+
+a:link{
+    color : #000080;
+}
+
+a:visited{
+    color : #000080;
+}

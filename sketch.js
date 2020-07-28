@@ -8,8 +8,16 @@ var button;
 
 var total,total2,total3;
 
+var sound;
+
+function preload(){
+    sound = loadSound("Music.mp3");
+}
+
 function setup(){
     canvas = createCanvas(displayWidth, displayHeight);
+
+    sound.play();
 
     input = createInput("");
     input2 = createInput("");
@@ -44,7 +52,7 @@ function setup(){
 
 function draw(){
     background("#20B2AA");
-    text12.position(displayWidth/2-150,displayHeight/2+125);
+    text12.position(displayWidth/2-150,displayHeight/2+155);
     text12.style("font-family","Berlin Sans FB");
     text12.style("textDecoration","underline");
 
